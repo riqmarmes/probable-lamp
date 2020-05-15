@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/probable-lamp/static/css/main.5f361e03.chunk.css",
+    "main.js": "/probable-lamp/static/js/main.185e1682.chunk.js",
+    "main.js.map": "/probable-lamp/static/js/main.185e1682.chunk.js.map",
+    "runtime-main.js": "/probable-lamp/static/js/runtime-main.f8dd1a1a.js",
+    "runtime-main.js.map": "/probable-lamp/static/js/runtime-main.f8dd1a1a.js.map",
+    "static/js/2.225f57ce.chunk.js": "/probable-lamp/static/js/2.225f57ce.chunk.js",
+    "static/js/2.225f57ce.chunk.js.map": "/probable-lamp/static/js/2.225f57ce.chunk.js.map",
+    "index.html": "/probable-lamp/index.html",
+    "precache-manifest.8987062152a8143aaffef8039521b67c.js": "/probable-lamp/precache-manifest.8987062152a8143aaffef8039521b67c.js",
+    "service-worker.js": "/probable-lamp/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/probable-lamp/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.225f57ce.chunk.js.LICENSE.txt": "/probable-lamp/static/js/2.225f57ce.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/probable-lamp/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8dd1a1a.js",
+    "static/js/2.225f57ce.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.185e1682.chunk.js"
+  ]
+}
