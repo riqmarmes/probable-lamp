@@ -54,3 +54,15 @@ code {
     width: 100%;
   }
 }
+
+.video-item {
+  position: relative;
+  padding: 15px;
+}
+
+.video-item-box {
+  padding: 5px;
+  border: 2px;
+  border-style: solid;
+  margin: 20px;
+}

@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <Fragment>
         <Header />
-        <Route exact path="/" component={Youtube} />
+        <Route exact path="/probable-lamp" component={Youtube} />
         <Route exact path="/counter" component={WrappedApp} />
       </Fragment>
     );

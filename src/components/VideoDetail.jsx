@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 const VideoDetail = ({ selectedVideo }) => {
   if (!selectedVideo) {
@@ -10,7 +10,7 @@ const VideoDetail = ({ selectedVideo }) => {
   const { description, title } = selectedVideo.snippet;
 
   return (
-    <Fragment>
+    <div className="video-detail">
       <div>
         <iframe
           title={description}
@@ -24,7 +24,7 @@ const VideoDetail = ({ selectedVideo }) => {
         <h4>{title}</h4>
         <p>{description}</p>
       </div>
-    </Fragment>
+    </div>
   );
 };
 
