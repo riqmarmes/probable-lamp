@@ -41,9 +41,6 @@ code {
   padding: 15px;
 }
 
-.right-column {
-}
-
 /* Clear floats after the columns */
 .row:after {
   content: "";

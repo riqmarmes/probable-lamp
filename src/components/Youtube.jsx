@@ -34,10 +34,9 @@ class Youtube extends Component {
     return `https://www.googleapis.com/youtube/v3/search?q=${query}&key=${KEY}&part=snippet&maxResults=${maxResults}`;
   }
 
-  //* Set default search term
-  //   componentDidMount() {
-  //     this.submitSearch();
-  //   }
+  componentDidMount() {
+    this.submitSearch();
+  }
 
   onTermSubmit = (term) => {
     console.log(term);
