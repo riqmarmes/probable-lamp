@@ -1,11 +1,16 @@
 import React, { Component } from "react";
+import { Route } from "react-router-dom";
+import Youtube from "./Youtube";
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
       <div>
-        <h1>Hello World</h1>
+        <Route path="/" component={Youtube} />
+        {/* <Route path="/page2" component={Counter} /> */}
       </div>
     );
   }
 }
+
+export default App;
