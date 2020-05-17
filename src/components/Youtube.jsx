@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import Searchbar from "./Searchbar";
 import VideoModule from "./VideoModule";
 
@@ -53,10 +53,10 @@ class Youtube extends Component {
 
   render() {
     return (
-      <div className="app ui container">
+      <Fragment>
         <Searchbar onTermSubmit={this.onTermSubmit} />
         <VideoModule appState={this.state} onVideoSelect={this.onVideoSelect} />
-      </div>
+      </Fragment>
     );
   }
 }
